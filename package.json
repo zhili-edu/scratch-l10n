@@ -33,7 +33,8 @@
         "validate:interface": "babel-node scripts/validate-translations ./editor/interface/",
         "validate:paint": "babel-node scripts/validate-translations ./editor/paint-editor/",
         "validate:editor": "npm run validate:blocks && npm run validate:extensions && npm run validate:interface && npm run validate:paint",
-        "validate:www": "babel-node scripts/validate-www ./www"
+        "validate:www": "babel-node scripts/validate-www ./www",
+        "prepare": "npm run build"
     },
     "repository": {
         "type": "git",
